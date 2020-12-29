@@ -1,0 +1,8 @@
+For my maze generation project, I use Hunt and Kill method of PCG to generate the maze.
+
+There are 2 image of my generated maze with 10 x 10 and 20 x 20 size. The demo video is a simple walk through of my maze.
+
+
+
+Cheah Jo Yen
+17059391/1
