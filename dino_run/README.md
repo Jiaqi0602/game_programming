@@ -2,7 +2,10 @@
 
 Dino run is a hidden endless runner game in Chrome offline mode. The dinosaur can be controlled by space/up and down arrow keys to jump and duck to avoid the obstacles in the game. 
 
-In this mini project, we developed a Deep Q-Networks (DQN) agent to play this game.  
+In this mini project, we developed a Deep Q-Networks (DQN) agent to play this game. 
+
+![Alt Text](https://github.com/Jiaqi0602/game_programming/blob/main/dino_run/images/training_process.gif)
+ 
 
 Game environment used is based on [gym_chrome_dino](https://github.com/elvisyjlin/gym-chrome-dino), implementation of the Deep Q-learning algorithm is inspired by this [repo](https://github.com/jmichaux/dqn-pytorch) and this [paper](http://cs229.stanford.edu/proj2016/report/KeZhaoWei-AIForChromeOfflineDinosaurGame-report.pdf). 
 
