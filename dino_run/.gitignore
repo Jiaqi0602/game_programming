@@ -1,0 +1,6 @@
+*.ipynb_checkpoints 
+*.pyc
+*.exe
+__pycache__/
+archieve/
+trained/
