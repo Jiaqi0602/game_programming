@@ -115,19 +115,6 @@ def train(env, n_episodes, logger):
             target_net.load_state_dict(policy_net.state_dict())
             save(f"model_{ep}.pth")
       
-    
-def test(self, env):
-    while True:
-        state = get_state(env.reset()).to(device)
-        while True:
-            with torch.no_grad():
-                action = policy_net(state).max(1)[1].view(1, 1)
-            next_state, _, done, _ = env.step(action)
-
-            if done:
-                break
-            next_state = get_stater(next_state).to(device)
-            state = next_state
 
             
 if __name__ == '__main__': 
